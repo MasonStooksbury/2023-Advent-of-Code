@@ -1,3 +1,31 @@
+fuck = 'cd9 fg8 ht0 ji3'
+# fuck = 'cd9 fg8 ji3 ht0'
+label = 'ht0'
+value = '0'
+index = fuck.find(label)
+thing = fuck[:index-1] + fuck[index + len(label) + 1:]
+
+# thing = fuck[:index] + f'{label}{value}' + fuck[index + len(label) + 1:]
+
+# fuck = 'cd9 fg8 ht0 ji3'
+fuck = 'cd9 fg8 ji3 ht0'
+fuck = fuck.split()
+label = 'ht0'
+value = '0'
+index = fuck.index(label)
+del fuck[index]
+
+
+
+
+
+thing = ' '.join(fuck)
+print(thing)
+print(f'--{thing}--')
+input()
+
+
+
 thing = [1,2,3]
 shit = [3,2,1]
 
